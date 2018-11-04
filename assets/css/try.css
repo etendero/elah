@@ -1,0 +1,119 @@
+body {
+  position: relative;
+  text-align: center;
+  font-family: 'Open Sans';
+}
+
+ul.nav-pills {
+  top: 20px;
+  position: fixed;
+}
+
+
+}
+div.col-sm-9 div {
+  height: 250px;
+  font-size: 28px;
+}
+#aboutme {
+  color: #1c1c1c;
+  background-color: #F9DC5C;
+  margin-top: -20px;
+}
+#aboutme p {
+  font-size: 18px;
+  padding: 10px 10px 5px 10px;
+}
+#aboutme h2 {
+  margin-top: -10px;
+}
+#mywork {
+  color: #1c1c1c;
+  background-color: #8093F1;
+  margin-top: -20px;
+  min-height: 500px;
+}
+#mywork p {
+  font-size: 18px;
+}
+#contact {
+  margin-top: -20px;
+  background-color: #F7AEF8;
+  color: #1c1c1c;
+}
+#contact p {
+  font-size: 18px;
+}
+@media screen and (max-width: 810px) {
+  #aboutme,
+  #mywork,
+  #contact,
+  {
+    margin-left: 150px;
+  }
+}
+.mypic {
+  max-height: 175px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.aboutme p {
+  font-size: 20px;
+}
+.nav {
+  text-align: center;
+  font-family: cousine;
+}
+.nav h1 {
+  font-size: 18px;
+}
+.nav h2 {
+  font-size: 16px;
+  margin: 0;
+}
+.nav ul li {
+  color: #1c1c1c;
+}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  color: #1c1c1c;
+  background-color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+#yzytributepage {
+  width: 300px;
+  height: 200px;
+  border: solid black 1px;
+  margin-bottom: 30px;
+}
+#kanyetag {
+  margin-top: -20px;
+  padding-bottom: 20px;
+}
+#aboutme .skillslogo.img-responsive {
+  max-height: 110px;
+  max-width: 100px;
+  display: inline;
+  padding-bottom: 10px;
+}
+#aboutme h1 {
+  padding-top: 15px;
+}
+#aboutme h2 {
+  padding-bottom: 5px;
+}
+#mywork h1 {
+  padding-top: 15px;
+}
+#contact h1 {
+  padding-top: 15px;
+}
+i {
+  padding: 5px;
+}
+#contact a {
+  text-decoration: none;
+  color: #1c1c1c;
+}

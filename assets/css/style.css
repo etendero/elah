@@ -1,0 +1,347 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+	color: #62446A;
+}
+
+main {
+	background-color: #FED7EA;
+}
+
+#nav {
+	width: 100%;
+	z-index: 10;
+	background-color: transparent;
+	font-family: 'Raleway', sans-serif;
+	color: #62446A;
+}
+
+ul > li > a {
+		text-decoration: none;
+		color: #62446A;
+
+}
+
+section h2 {
+	font-family: 'Leckerli One', cursive;
+	color: #62446A;
+	padding-top: 8%;
+
+}
+
+
+/*landing page*/
+
+#home {
+	height: 100vh;
+	background-color: #FED7EA;
+}
+
+#name {
+	z-index: 10;
+	font-family: 'Leckerli One', cursive;
+	color: #62446A;
+}
+
+#name2 {
+	letter-spacing: 5px;
+	z-index: 10;
+}
+
+
+
+
+
+/*end landing page*/
+
+
+/*about section*/
+#about {
+	height: 100vh;
+	background-color: #9C89B8;
+	color: #f2f2f2;
+}
+
+#about p {
+	width: 70%;
+}
+
+
+
+
+
+/*end about section*/
+
+/*skills section*/
+#skills {
+	height: 100vh;
+	background-color: #47E8DA;
+	
+}
+
+#bar {
+	border-right: 3px solid black;
+}
+
+.progress{
+	height: 30px;
+	margin-bottom: 5%;
+}
+.progress-html {
+	width: 80%;
+	position: relative;
+    margin-left: 20%
+
+}
+
+.progress-boot {
+	width: 70%;
+	position: relative;
+    margin-left: 30%
+
+}
+
+.progress-java {
+	width: 65%;
+	position: relative;
+    margin-left: 35%
+
+}
+
+.progress-photo {
+	width: 60%;
+	position: relative;
+    margin-left: 40%
+
+}
+
+.progress-php {
+	width: 70%;
+
+}
+
+.progress-sql {
+	width: 60%;
+
+}
+
+.progress-node {
+	width: 55%;
+
+}
+
+.progress-linux {
+	width: 50%;
+
+}
+
+/*end skills section*/
+
+
+
+#work{
+	height: 100vh;
+	background-color: #C6CAED;
+}
+
+.card {
+	width: 30%;
+}
+
+#contact {
+	height: 100vh;
+	background-color: #FED7EA;
+}
+
+
+#social img {
+	height: 80px;
+	width: 80px;
+}
+
+form {
+	width: 50%;
+}
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+/*Mobile Style*/
+@media only screen and (max-width: 400px) {
+	#home,
+	#about,
+	#skills,
+	#work,
+	#contact {
+		height: 100%;
+	}
+
+#name12 {
+	font-family: 'Leckerli One', cursive;
+}
+
+
+#picture img {
+	float: right;
+	width: 100%;
+}
+
+#likes  {
+
+  height: 200px;
+  width: 200px;
+  margin-bottom: 8%;
+}
+
+.carousel-item h5 {
+	text-transform: uppercase;
+	font-size: 20px;
+	text-shadow: 2px 3px #62446A;
+
+}
+
+#bar div {
+	font-size: 15px;
+}
+
+.card {
+	width: 80%;
+	margin-bottom: 5%;
+}
+
+#social {
+	margin-bottom: 5%;
+}
+	
+
+}
+
+/*tablet Styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	#home,
+	#about,
+	#skills,
+	#work,
+	#contact {
+		height: 100%;
+	}
+
+	#name12 {
+	font-family: 'Leckerli One', cursive;
+	font-size: 3em;
+	margin-top: 15%;
+
+	}
+
+	#name22 {
+	font-size: 30px;
+	}
+
+
+
+	#picture img {
+		float: right;
+		width: 100%;
+	}
+
+	#likes  {
+
+  height: 250px;
+  width: 250px;
+  margin-bottom: 8%;
+}
+
+.carousel-item h5 {
+	text-transform: uppercase;
+	font-size: 30px;
+	text-shadow: 2px 3px #62446A;
+}
+	
+#skills .row {
+	margin-bottom: 8%;
+}
+
+.card {
+	width: 40%;
+	margin-bottom: 5%;
+}
+
+#social {
+	margin-bottom: 5%;
+}
+
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+
+
+#picture img {
+	height: 100vh;
+}
+
+#name {
+	font-family: 'Leckerli One', cursive;
+	font-size: 70px;
+	padding-top: 35%;
+
+}
+
+
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  color: #1c1c1c !important;
+  background-color: white !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
+}
+
+	ul > li:hover > a > span {
+	display: none;
+
+}
+
+	ul > li:hover > a {
+		font-weight: bolder;
+		color: #62446A;
+		border-bottom: 2px solid #62446A;
+		text-align: center;
+}
+		
+#likes  {
+
+  height: 300px;
+  width: 300px;
+}
+
+.carousel-item h5 {
+	text-transform: uppercase;
+	text-shadow: 2px 3px #62446A;
+}
+
+#social img {
+
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+
+  }
+
+#social img:hover  {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+
+}
