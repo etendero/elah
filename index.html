@@ -65,7 +65,7 @@
 
 
 
-		<section id="home" class="container-fluid">
+		<section id="home" class="container-fluid panel" data-color="pink">
 			<div class="row">
 				<div class="col-lg-6 col-md-12 col-12 d-none d-lg-block">
 					<div class="row ">
@@ -93,7 +93,7 @@
 			
 		</section> <!-- end home -->
 
-		<section id="about" class="container-fluid ">
+		<section id="about" class="container-fluid panel" data-color="purple">
 			<h2 class="section-title text-center">About Me</h2>
 
 			<p class="text-center mx-auto pt-3">Hi I am a web developer & designer. I believe working in a multi-disciplined approach brings creative inspiration to my work. I am passionate about creating websites and web apps that incorporate interactive design and modern technologies. I love experimenting with new backend technologies, with the aim to improve productivity, quality, performance and speed.</p>
@@ -203,11 +203,11 @@
 		</section> <!-- end about -->
 
 		
-		<section id=skills class="container-fluid">
+		<section id=skills class="container-fluid panel" data-color="aqua">
 
 		    <h2 class="section-title text-center mx-auto">My Skills</h2>
 		 
-		    <div class="row pt-4">
+		    <div class="row pt-5">
 		        <div id="bar" class="col-6 col-lg-6 text-right">
 		        	<h4 class="text-center">Front End</h4>
 
@@ -228,10 +228,7 @@
 					</div>
 
 
-		        	<div>PhotoSHop | Illustrator</div>
-		        	<div class="progress">
-  						<div class="progress-bar progress-photo progress-bar-striped bg-warning progress-bar-animated " role="progressbar"> 60 %</div>
-					</div>
+		        	
 
 		        </div><!--  end frontend -->
 
@@ -248,15 +245,12 @@
   						<div class="progress-bar progress-sql progress-bar-striped bg-warning progress-bar-animated" role="progressbar"> 60 %</div>
 					</div>
 
-		        	<div>Node JS | Laravel</div>
+		        	<div>Vue JS | Laravel</div>
      					<div class="progress">
   							<div class="progress-bar progress-node progress-bar-striped bg-warning progress-bar-animated" role="progressbar"> 55 %</div>
 						</div>
 
-		        	<div>Linux</div>
-		        	<div class="progress">
-  						<div class="progress-bar progress-linux progress-bar-striped bg-warning progress-bar-animated" role="progressbar">45 %</div>
-					</div>
+		        	
 	
 		        	</div> <!-- end back end -->
 
@@ -264,13 +258,14 @@
 
 		</section> <!-- end ofskills -->
 			
-		<section id="work" class="container-fluid">
+		<section id="work" class="container-fluid panel" data-color="lavander">
 
 		    <h2 class="section-title text-center">Work</h2>
 		    <p class="text-center"><small >gonna fill this up as I continue learning!</small></p>
 
-
-				<div class="card text-center mx-auto">
+		    <div class="row d-flex justify-content-around">
+	
+				<div class="card col-3 p-3">
 				    <img class="card-img" src="assets/images/capstone1.JPG" alt="Card image cap">
 				    <div class="card-body">
 				      <h5 class="card-title">Satchmo</h5>
@@ -279,10 +274,28 @@
 				    </div>
 				  </div>
 				  
+				  <div class="card col-3 p-3">
+				    <img class="card-img" src="assets/images/capstone2.JPG" alt="Card image cap">
+				    <div class="card-body">
+				      <h5 class="card-title">Mad Batter</h5>
+				      <p class="card-text">Mad Batter is an ecommerce webiste using php and mysql. This website is designed as an ecommerce for a pastry shop. </p>
+				      <p class="card-text"><a href="https://cakesmakemesane.000webhostapp.com/capstone2/app/views/index.php" target="_blank"> go to webpage</a></p>
+				    </div>
+				  </div>
+
+				  <div class="card col-3 p-3">
+				    <img class="card-img" src="assets/images/capstone3.JPG" alt="Card image cap">
+				    <div class="card-body">
+				      <h5 class="card-title">Rendezvous</h5>
+				      <p class="card-text">Rendezvous is a Restaurant Review website built with Laravel framework. This website uses CRUD for a user and an admin.</p>
+				      <p class="card-text"><a href=" https://meet-me-at-the-rendezvous.herokuapp.com/" target="_blank"> go to webpage</a></p>
+				    </div>
+				  </div>
+			 </div>
 		       
 		</section> <!-- end of work -->
 
-		<section id="contact" class="container-fluid">
+		<section id="contact" class="container-fluid panel" data-color="pink">
 
 		    <h2 class="section-title text-center">Say Hello!</h2>
 
@@ -337,6 +350,8 @@
 
 <!-- external js -->
 <script src="assets/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
 
 </body>
 </html>
