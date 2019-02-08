@@ -267,6 +267,10 @@ background-color: #FED7EA;
 	background-color: #FED7EA;
 }*/
 
+#contact div {
+	width: 50vw;
+
+}
 
 
 
@@ -333,13 +337,22 @@ background-color: #FED7EA;
 	margin-bottom: 5%;
 }
 
+#social {
+		margin-left: 15vw;
+}
+
  #social img {
 	height: 30px;
 	width: 30px;
+
 }
 
 form {
 	width: 80%;
+}
+
+#contact h3 u {
+	font-size: .8em;
 }
 	
 
@@ -397,6 +410,7 @@ form {
 
 #social {
 	margin-bottom: 5%;
+	margin-left: 15vw;
 }
 
  #social img {

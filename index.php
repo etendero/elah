@@ -451,7 +451,7 @@
 
 		    <h2 class="section-title text-center">Say Hello!</h2>
 
-		    <p class="text-center">Hello! If a piqued your iterest, feel free to contact me by filling up this form.</p>
+		    <p class="text-center">Hello! If a piqued your interest, feel free to contact me by filling up this form.</p>
 
 					 <form class="mx-auto" action="mail.php" method="POST">
 	    				<div class="form-group">
